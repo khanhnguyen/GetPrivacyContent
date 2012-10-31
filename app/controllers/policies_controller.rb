@@ -1,4 +1,6 @@
 class PoliciesController < ApplicationController
+  caches_page :privacy
+
   def privacy
     agent =  Mechanize.new
     page = agent.get("http://www.dfps.state.tx.us/policies/privacy.asp")    
