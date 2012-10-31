@@ -81,6 +81,7 @@ GEM
     netrc (0.7.7)
     nokogiri (1.5.5)
     ntlm-http (0.1.1)
+    pg (0.14.1)
     polyglot (0.3.3)
     rack (1.4.1)
     rack-cache (1.2)
@@ -142,6 +143,7 @@ DEPENDENCIES
   jquery-rails
   mechanize (= 2.5.1)
   mysql2
+  pg
   rails (= 3.2.8)
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)
